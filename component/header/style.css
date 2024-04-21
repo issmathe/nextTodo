@@ -1,0 +1,56 @@
+/* general */
+* {
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 75px;
+    background-color: rgb(57, 61, 57);
+    padding: 0 50px;
+}
+
+.logoContainer {
+    height: 75px;
+    width: 75px;
+}
+
+.logoContainer img {
+    width: 100%;
+    height: 100%;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav a {
+    color: white;
+}
+
+.headerButtonContainer {
+    display: flex;
+    gap: 20px;
+}
+
+.button {
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.buttonPrimary {
+    background-color: rgb(61, 115, 207);
+}
+
+.buttonSecondary {
+    background-color: rgb(213, 61, 61);
+    color: white;
+}
